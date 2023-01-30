@@ -73,3 +73,29 @@ label {
 .required-field {
     color: red;
 }
+
+.hiddenimg {
+    display: none;
+}
+
+.nodecor:link {
+    text-decoration: none;
+}
+
+.nodecor:visited {
+    text-decoration: none;
+}
+
+.nodecor:hover {
+    text-decoration: none;
+}
+
+.nodecor:active {
+    text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
